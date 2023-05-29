@@ -1,0 +1,260 @@
+*::before
+::after{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+
+}
+body,
+button{
+    background-image:url(img/sirine.jpg);
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 60%;
+    height: 100%;
+background-position:center;
+
+
+}
+nav{ 
+    width:100%;
+    height:70px;
+    background: #212121;
+  
+}
+
+.container-info-photo img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    }
+
+nav a{
+    color: rgb(255, 160, 16);
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 30;
+}
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      background-color: black;
+        width: 175%;
+        height: 100%;
+        list-style-type : none;
+     
+        
+    } 
+    nav img{
+        width: 10%;}
+   
+        nav li {
+            margin: 0 15px; }
+            @media screen and (max-width:100px) {
+                nav li  {
+                margin: 0 8px; }
+                nav a{ 
+                font-size: 15px; }} 
+                .hero{ 
+                    height: 700px;
+                  
+                    display: flex;
+                    overflow: hidden;}
+
+                    .home-left{
+                        position: relative;
+                        width: 40%;
+                        background: #bbbbbb;
+                        height: 100%;
+                        box-shadow: 50px 0 50px 50px#fffbfbc0  ;}
+                        
+                        h1{
+                        color: #a6ff17;
+                        font-size: 81px;
+                        padding-top: 150px;
+                        padding-bottom: 50px;
+                        margin-left: 8vw;
+                        white-space: nowrap;}
+                        .hero p{
+                        color: #eeff00;
+                        font-size: 17px;
+                        width: 500px;
+                        margin-left: 2vw;
+                        line-height: 2;
+                    }
+                         .btn-home {
+                             font-size: 20px;
+                            text-align: center;
+                            color: #5db34c;
+                            background: #ff6129 ;
+                            padding: 15px;
+                        text-decoration: none;
+                    margin-top: 40px;
+                    border: 1px solid #f1f1f1  ;
+                cursor: pointer;
+            }
+
+            .btn-home:hover{
+            color:#726c6c;
+            background:#c9ae86;
+            transition: all 0.3s ease;
+        }
+        .b1{
+            margin: left 8vw;}
+            .b2{
+                margin: left 10px;}
+
+                .home-right{
+                    background-image: url(img/sirine.jpg);
+                width: 60%;
+            height: 100%;
+        background-position:60% 45%;
+    }
+
+    .section-title{
+        color: #470604;
+        text-align: center;
+        font-size: 69px;
+        padding: 30px 60px 85px;
+    text-transform: uppercase;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    background: cornsilk;
+    position: relative;
+}
+    
+    .container-info-photo img {
+        width: 80%;
+        height: 400px;
+        object-fit: cover;
+        }
+        .info-card h2{
+        color:#754e86;
+        text-align : center;
+        font-size:30px;
+        padding: 30px 10px;
+    }
+.info-card p {
+color: rgb(236, 31, 219);
+font-size :22px ;
+text-align :center;
+padding :0 40px 10px;}
+#choice{
+    background: black;
+    width: 180%;
+    height: 180px;
+   
+display:flex;
+justify-content: center;
+align-items:center;
+}
+ .training-choice{
+width:30%;
+color: white;
+text-align:center;
+margin: 50px 20px 70px;}
+.training-choice h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.training-choice p{
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+.btn-outline-choice {
+width:200px;
+padding:20px 5;
+font-size:20px;
+background:black;
+border:1px solid #5e0570;
+color:#9c749c;
+cursor:pointer;
+border-radius: 4px;
+font: bold;
+}
+.btn-outline-choice :hover{
+    transition: all 0.2 ease-in-out;
+    background:#964b4b ;
+    color: black;}
+
+    #equipmentofourgym{
+    display:flex;
+    justify-content:cover;
+    align-items:wrap;
+    width:100%;
+    max-width:1300px;
+    min-width:300px;
+    margin:0 auto 100px;
+    
+       
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+        position: relative;
+    
+        
+        
+            width: 80%;
+            height: 400px;
+            object-fit: cover;
+            
+          
+}
+    
+   
+
+
+
+.contact{
+    background-color:#000000a6 ;
+    width: 165%;
+    height: 100%;
+    color: rgb(121, 11, 102);
+  
+
+    
+}
+.contac .icon {
+    font-size: 3.5;
+    
+
+}
+.contact .info h3{
+    color: rgb(46, 3, 39);
+
+}
+.contact .info p{
+    font-size: 1.8m;
+    color: rgb(19, 4, 87);
+}
+.nav img{
+    width: 10%;}
+
+.footer{
+background-color: #050535;
+color: rgb(88, 6, 6);
+padding: 2em;
+display: flex;
+justify-content: space-between;
+}
+.footer-title span{
+    font-size: 2em;
+    font-weight: 700;
+    color: burlywood;
+
+}
+.footer-title span{
+    color: #8f0e0e;
+
+}
